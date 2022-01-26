@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/monofett"
+        android:text="@string/logo_text"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/form_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="80sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/form_title"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/form_title"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/user_field_hint"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint"
+        android:textSize="34sp" />
+
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/main_btn"
+        android:textAlignment="center"
+        android:textColor="@color/btnColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_below="@+id/main_btn"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+</RelativeLayout>

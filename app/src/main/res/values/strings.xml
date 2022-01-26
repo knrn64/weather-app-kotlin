@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="logo_text">Cloud Weather</string>
+    <string name="form_title">Check weather in your city</string>
+    <string name="user_field_hint">Enter your city</string>
+    <string name="main_btn">Check now</string>
+    <string name="no_user_input">Please enter the city</string>
+</resources>
